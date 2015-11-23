@@ -263,17 +263,12 @@ header .header-content .header-content-inner h1 {
     color: grey;
 }
 .over {
-    position: relative;
-    z-index: 3;
+    z-index: 2;
 }
 .green-overlay {
     position: relative;
     z-index: 0;
     overflow: hidden;
-}
-
-.green-overlay h2, a{
-    color: white;
 }
 
 .green-overlay img{
@@ -291,7 +286,7 @@ header .header-content .header-content-inner h1 {
     bottom: 0;
     background: url("http://1x1px.me/AEC817-0.4.png") repeat center center;
     background-size: 100vh;
-    z-index:2;
+    z-index:1;
 
 }
 .
