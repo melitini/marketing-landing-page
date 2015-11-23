@@ -266,23 +266,23 @@ header .header-content .header-content-inner h1 {
     position: relative;
     z-index: 3;
 }
-.green-overlay {
+.single {
     position: relative;
     z-index: 0;
     overflow: hidden;
 }
 
-.green-overlay h2, a{
+.single h2, a{
     color: white;
 }
 
-.green-overlay img{
+.single img{
     -ms-transform: rotate(-25deg) scale(1.5) ; /* IE 9 */
     -webkit-transform: rotate(-25deg) scale(1.5) ; /* Chrome, Safari, Opera */
     transform: rotate(-25deg) scale(1.5) ;
 }
 
-.green-overlay:after {
+.single:after {
     position: absolute;
     content: "";
     top: 0;
@@ -294,10 +294,24 @@ header .header-content .header-content-inner h1 {
     z-index:2;
 
 }
-.
+
+
+/*=================================
+<<<<<<<<<< SERVICES >>>>>>>>>>>>>>
+===================================*/
+
 .service-box {
     margin: 50px auto 0;
     max-width: 400px;
+    color: black;
+}
+
+.service-box i {
+    color: #DE0B48;
+}
+
+.service-box p {
+    margin-bottom: 0;
 }
 
 /*------- mobile section ---------*/
@@ -308,9 +322,6 @@ header .header-content .header-content-inner h1 {
     }
 }
 
-.service-box p {
-    margin-bottom: 0;
-}
 
 
 /*=================================
@@ -378,6 +389,31 @@ header .header-content .header-content-inner h1 {
         font-size: 22px;
     }
 }
+/*=================================
+<<<<<<<<<<<<<< TEAM >>>>>>>>>>>>>>>>
+===================================*/
+
+.team h2 {
+    color: black;
+    font-weight: 400;
+
+
+}
+.team img {
+    max-width: 300px;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+    padding: 5%;
+
+
+}
+
+
+/*=================================
+<<<<<<< GLOBAL FORMATTING >>>>>>>>>
+===================================*/
+
 
 .call-to-action h2 {
     margin: 0 auto 20px;
@@ -404,6 +440,14 @@ header .header-content .header-content-inner h1 {
 .side-padding-15 {
     padding-left: 15%;
     padding-right: 15%;
+}
+.vertical-padding-5 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.vertical-padding-10 {
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .btn-default {
