@@ -293,7 +293,7 @@ header .header-content .header-content-inner h1 {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("http://1x1px.me/AEC817-0.4.png") repeat center center;
+    background: url(../img/green-shade.png) repeat center center;
     background-size: 100vh;
     z-index:2;
 
