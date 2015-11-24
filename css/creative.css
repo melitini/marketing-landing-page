@@ -173,8 +173,9 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    min-height: 400px;
     text-align: center;
+    overflow: hidden;
     color: #fff;
     background-image: url(../img/white-camera.jpg);
     background-position: center;
@@ -414,13 +415,6 @@ header .header-content .header-content-inner h1 {
     border: 5px solid #222;
 }
 
-.team .first {
-    padding-left: 20%;
-}
-
-.team .second {
-    padding-right: 20%;
-}
 
 
 
