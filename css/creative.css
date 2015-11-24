@@ -43,6 +43,7 @@ p {
 
 .bg-primary {
     background-color: #ffffff;
+    color: #000000;
 }
 .bg-secondary {
     background-color: #efefef;
@@ -400,6 +401,7 @@ header .header-content .header-content-inner h1 {
 .team h2 {
     color: black;
     font-weight: 400;
+    text-transform: uppercase;
 
 
 }
@@ -409,9 +411,17 @@ header .header-content .header-content-inner h1 {
     overflow: hidden;
     margin: 0;
     padding: 5%;
-
-
+    border: 5px solid #222;
 }
+
+.team .first {
+    padding-left: 20%;
+}
+
+.team .second {
+    padding-right: 20%;
+}
+
 
 
 /*=================================
