@@ -195,7 +195,7 @@ header:after {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("http://1x1px.me/DE0B48-0.7.png") repeat center center;
+    background: url(../img/pink-shade.png) repeat center center;
     background-size: 100vh;
     z-index:-1;
 }
